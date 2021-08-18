@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&family=Titan+One&display=swap');
+
+html,body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.box-principal {
+    display: flex;
+    max-width: 100vw;
+    max-height: auto;
+    flex-direction: row;
+    align-items: flex-start;
+    
+
+}
+
+
+.logo {
+    max-width: 40vw;
+    display: flex;
+    width: 900px;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.texto-introdutorio {
+    font-family: 'Style Script', cursive;
+    display: flex;
+    width: 60vw;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 40px;
+    margin: 0px;
+    justify-content: center;
+    
+}
+
+span {
+    color: purple;
+    background-color: rgba(225, 211, 235, 0.993);
+   font-weight: bolder;
+}
+
+
+
+.escolha-persona {
+    font-family: 'Style Script', cursive;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+
+
+.box-fotos {
+    color: white;
+    display: flex;
+    width: 0 auto;
+    justify-content: space-evenly;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+:hover.card {
+    border: 6px solid purple;
+    border-radius: 10px;
+}
+
+.card h2 {
+    
+    text-align: center;
+    text-transform: uppercase;
+
+
+}
+
+.logo-persona {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.copy {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Style Script';
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    
+}
+.copy a {
+    text-decoration: none;
+    color: white;
+}

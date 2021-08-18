@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+    width: 100vw;
+   
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    display: inline-block;
+    font-family: 'Style Script', cursive;
+    font-size: 50px;
+    ;
+    margin: 20px;
+    color: purple;
+    background-color: rgba(225, 211, 235, 0.993);
+}
+
+h2 {
+    display: inline-block;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: purple;
+    background-color: rgba(225, 211, 235, 0.993);
+
+}
+
+p {
+    display: block;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: purple;
+    font-size: 20px;
+
+}
+
+a {
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px;
+    margin: 20px;
+    font-size: 15px;
+    border: 2px solid purple;
+}
+
+a:hover {
+    border-color: white;
+}
+
+.botão {
+    cursor: pointer;
+    display: inline-flex;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin: 20px;
+    font-size: 15px;
+    border: 2px solid purple;
+}
+
+.botão:hover {
+    border-color: white;
+}
