@@ -1,7 +1,7 @@
 function escolhaUsuario() {
     var escolha = ""
     while (escolha != 1 && escolha != 2) {
-        escolha = prompt("Qual é sua escolha? \n 1 - Bota suas recém habilidades de luta corporal em prática   \n 2 - Como boa negociadora, tenta misericórdia para ela")
+        escolha = prompt("Qual é sua escolha? \n 1 - Bota suas habilidades de luta corporal em prática   \n 2 - Como boa negociadora, tenta misericórdia para ela")
 
         if (escolha == 1) {
 

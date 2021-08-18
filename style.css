@@ -2,12 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Style+Script&family=Titan+One&display=swap');
 
-html,body {
+html,
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: black;
+
 }
+
 p {
     margin: 0;
     padding: 0;
@@ -21,7 +24,6 @@ p {
     max-height: auto;
     flex-direction: row;
     align-items: flex-start;
-    
 
 }
 
@@ -32,6 +34,7 @@ p {
     width: 900px;
     max-width: 100%;
     margin-bottom: 10px;
+
 }
 
 .texto-introdutorio {
@@ -41,18 +44,17 @@ p {
     flex-wrap: wrap;
     color: white;
     font-size: 40px;
-    margin: 0px;
+    margin-top: 2%;
     justify-content: center;
-    
+    padding-left: 2%;
+
 }
 
 span {
     color: purple;
     background-color: rgba(225, 211, 235, 0.993);
-   font-weight: bolder;
+    font-weight: bolder;
 }
-
-
 
 .escolha-persona {
     font-family: 'Style Script', cursive;
@@ -60,8 +62,6 @@ span {
     color: white;
     font-size: 50px;
 }
-
-
 
 .box-fotos {
     color: white;
@@ -83,7 +83,7 @@ span {
 }
 
 .card h2 {
-    
+
     text-align: center;
     text-transform: uppercase;
 
@@ -104,8 +104,9 @@ span {
     text-decoration: none;
     color: white;
     font-size: 25px;
-    
+
 }
+
 .copy a {
     text-decoration: none;
     color: white;
